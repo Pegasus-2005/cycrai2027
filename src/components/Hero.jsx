@@ -18,17 +18,17 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 flex items-end justify-center">
         <img
-          src={heroBg}
-          alt="Background"
-          className="
-            w-full
-            h-full
-            object-contain
-            object-bottom
-            pointer-events-none
-            select-none
-          "
-        />
+  src={heroBg}
+  alt="Background"
+  className="
+    w-full
+    h-full
+    object-cover
+    object-center
+    pointer-events-none
+    select-none
+  "
+/>
       </div>
 
       {/* Slight Overlay */}
@@ -45,28 +45,29 @@ export default function Hero() {
         {/* Main Content */}
         <div className="text-center mt-6">
 
-          <h1 className="text-6xl md:text-8xl font-extrabold text-white tracking-wide">
-            CYCRAI
+          <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-wide">
+            CYCRAI  2027
           </h1>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-white mt-1">
+          {/* <h2 className="text-4xl md:text-5xl font-bold text-white mt-1">
             2027
-          </h2>
+          </h2> */}
 
-          <p className="mt-6 text-white text-lg md:text-2xl uppercase tracking-[3px] font-semibold">
+          <p className="mt-1.6 text-white text-lg md:text-1.7xl uppercase tracking-[2px] font-semibold">
             AN IEEE INDIA COUNCIL CONFERENCE
           </p>
 
-          <p className="mt-2 text-white/90 uppercase tracking-[4px] text-sm md:text-lg">
+          <p className="mt-1.6 text-white/90 uppercase tracking-[2px] text-sm md:text-lg">
             IN ASSOCIATION WITH IEEE KOLKATA SECTION PRESENTS
           </p>
 
           {/* Conference Title */}
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-4">
 
             <div
               className="
-                bg-[#040817]/70
+                bg-[#041B40]/70
+
                 backdrop-blur-md
                 border-2
                 border-cyan-400
@@ -90,12 +91,12 @@ export default function Hero() {
           </div>
 
           {/* Date + Venue */}
-          <div className="flex flex-wrap justify-center gap-6 mt-8">
+          <div className="flex flex-wrap justify-center gap-6 mt-4">
 
             <div
               className="
                 flex items-center gap-4
-                bg-[#041B40]/75
+                bg-[#041B40]/70
                 backdrop-blur-md
                 border border-cyan-400
                 rounded-xl
@@ -113,7 +114,7 @@ export default function Hero() {
             <div
               className="
                 flex items-center gap-4
-                bg-[#041B40]/75
+                bg-[#041B40]/70
                 backdrop-blur-md
                 border border-cyan-400
                 rounded-xl
@@ -132,7 +133,7 @@ export default function Hero() {
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-wrap justify-center gap-6 mt-8">
+          <div className="flex flex-wrap justify-center gap-6 mt-4">
 
             <button
               onClick={() => {
@@ -143,15 +144,16 @@ export default function Hero() {
                 px-10
                 py-4
                 rounded-full
-                bg-gradient-to-r
-                from-cyan-500
-                to-blue-600
+                border-2
+                border-cyan-400
+                bg-[#041B40]/70
                 text-white
                 text-lg
                 font-semibold
+                hover:bg-cyan-500
+                hover:border-cyan-500
                 hover:scale-105
                 transition
-                shadow-[0_0_20px_rgba(0,180,255,0.5)]
               "
             >
               Register Now

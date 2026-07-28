@@ -1,21 +1,22 @@
 
-import uem from "../assets/image/UEM_Blue.png";
-import iem from "../assets/image/IEM_Logo2019.png";
-import ieee_kol from "../assets/image/IEEE_kol_logo.png";
+import uem from "../assets/image/UEM_White.png";
+import iem from "../assets/image/IEM_White.png";
+import ieee_kol from "../assets/image/ieeek_logo_white.png";
 import ieee_cs from "../assets/image/ieee_cs_kolkata_sec.png";
 import ieee_sb from "../assets/image/IEEE_SB_logo_white.png";
-import iedc from "../assets/image/iedc_trans.png";
-
+import iedc from "../assets/image/IEDC_White_Logo.png";
+import ieee_cs_sb from "../assets/image/ieee_cs_uem_white (1).png";
+import cycrai_logo from "../assets/image/cycrai_logo.png";
 export default function LogoStrip() {
   return (
-    <div className="w-full px-4 mt-16 md:mt-20">
+    <div className="w-full px-4 mt-11 md:mt-16">
       <div
         className="
           w-full
           max-w-[1000px]
           mx-auto
 
-          bg-[rgba(250,244,225,0.85)]
+          
           backdrop-blur-xl
 
           border border-[#D4AF37]/40
@@ -60,19 +61,19 @@ export default function LogoStrip() {
           {/* Divider */}
           <div className="h-8 md:h-12 w-px bg-[#D4AF37]/40 shrink-0" />
 
-          {/* Logo 3 */}
-          <div className="flex flex-1 items-center justify-center h-12 md:h-20 lg:h-24">
+          {/* Logo (IEEE CS KOLKATA SECTION) */}
+          {/* <div className="flex flex-1 items-center justify-center h-12 md:h-20 lg:h-24">
             <img
               src={ieee_cs}
               alt="IEEE Computer Society Kolkata Section"
               className="max-h-full max-w-full object-contain"
             />
-          </div>
+          </div> */}
 
           {/* Divider */}
-          <div className="h-8 md:h-12 w-px bg-[#D4AF37]/40 shrink-0" />
+          {/* <div className="h-8 md:h-12 w-px bg-[#D4AF37]/40 shrink-0" /> */}
 
-          {/* Logo 4 */}
+          {/* Logo 3*/}
           <div className="flex flex-1 items-center justify-center h-12 md:h-20 lg:h-24">
             <img
               src={ieee_sb}
@@ -83,7 +84,29 @@ export default function LogoStrip() {
           {/* Divider */}
           <div className="h-8 md:h-12 w-px bg-[#D4AF37]/40 shrink-0" />
 
-          {/* Logo 5 */}
+          {/* Logo 4 */}
+          <div className="flex flex-1 items-center justify-center h-12 md:h-20 lg:h-24">
+            <img
+              src={cycrai_logo}
+              alt="CYCRAI 2027"
+              className="max-h-full max-w-full object-contain"
+            />
+          </div>
+          {/* Divider */}
+          <div className="h-8 md:h-12 w-px bg-[#D4AF37]/40 shrink-0" />
+
+           {/* Logo 5 */}
+          <div className="flex flex-1 items-center justify-center h-12 md:h-20 lg:h-24">
+            <img
+              src={ieee_cs_sb}
+              alt="IEEE Computer Society Kolkata Section"
+              className="max-h-full max-w-full object-contain"
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="h-8 md:h-12 w-px bg-[#D4AF37]/40 shrink-0" />
+          {/* Logo 6 */}
           <div className="flex flex-1 items-center justify-center h-12 md:h-20 lg:h-24">
             <img
               src={iedc}
@@ -94,7 +117,7 @@ export default function LogoStrip() {
           {/* Divider */}
           <div className="h-8 md:h-12 w-px bg-[#D4AF37]/40 shrink-0" />
 
-          {/* Logo 6 */}
+          {/* Logo 7 */}
           <div className="flex flex-1 items-center justify-center h-12 md:h-20 lg:h-24">
             <img
               src={iem}
