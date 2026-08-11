@@ -3,16 +3,6 @@ import {
   FaShieldAlt,
   FaBrain,
   FaCode,
-  FaCloud,
-  FaBroadcastTower,
-  FaCity,
-  FaRobot,
-  FaAtom,
-  FaMicrochip,
-  FaBolt,
-  FaSatellite,
-  FaHeartbeat,
-  FaUserShield,
 } from "react-icons/fa";
 
 const tracks = [
